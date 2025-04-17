@@ -4,7 +4,7 @@ public abstract class Pato { // Classe abstrata
     
     // Corrigido: agora são dois atributos distintos e com nomes consistentes
     protected Padrao_Voaveis comportamento_pato_voo; // Composição, Pato tem um comportamento de voo
-    protected Padrao_Pular comportamento_pato_pulo; // ** Atividade 2: Composição, Pato tem um comportamento de pulo 
+    protected Padrao_Pular comportamento_pato_pulo; // ** Composição, Pato tem um comportamento de pulo 
 
     // Método abstrato, implementado nas subclasses
     abstract String mostrar();
