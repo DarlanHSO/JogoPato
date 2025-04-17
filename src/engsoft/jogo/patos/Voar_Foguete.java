@@ -1,6 +1,6 @@
 package engsoft.jogo.patos;
 
-public class Voar_Foguete implements Padrao_Voaveis{
+public class Voar_Foguete implements Padrao_Voaveis{ // Classe concreta que implementa a interface Padrao_voaveis
 	
 	private double velocidade;
 	
