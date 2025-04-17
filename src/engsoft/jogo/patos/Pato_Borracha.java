@@ -4,7 +4,7 @@ public class Pato_Borracha extends Pato { // Classe concreta, Herança: Pato_Bor
 
 	public Pato_Borracha()
 	{
-		setComportamento(new Nao_Voa(), new Nao_Pula());  // Código em tempo de implementação, inicializando o comportamento de voo e *não pulo	(atividade 2)
+		setComportamento(new Nao_Voa(), new Nao_Pula());  // Código em tempo de implementação, inicializando o comportamento de voo e *não pulo	
 	}
 	
 	public String mostrar() {
