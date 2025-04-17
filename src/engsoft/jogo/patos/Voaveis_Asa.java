@@ -1,6 +1,6 @@
 package engsoft.jogo.patos;
 
-public class Voaveis_Asa implements Padrao_Voaveis {
+public class Voaveis_Asa implements Padrao_Voaveis { // Classe concreta que implementa a interface Padrao_Voaveis
 
 	private double velocidade;
 
