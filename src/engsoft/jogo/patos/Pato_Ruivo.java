@@ -4,7 +4,7 @@ public class Pato_Ruivo extends Pato implements Padrao_Grasnar{ // Classe concre
                                                                 // e implementa a interface Padrao_Grasnar
 	public Pato_Ruivo()
 	{
-		setComportamento(new Voaveis_Asa(), new Pular_Pata()); // Código em tempo de implementação, inicializando o comportamento de voo e **pulo (atividade 2)
+		setComportamento(new Voaveis_Asa(), new Pular_Pata()); // Código em tempo de implementação, inicializando o comportamento de voo e **pulo 
 	}
 	
 	public String mostrar() {
