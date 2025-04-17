@@ -1,6 +1,6 @@
 package engsoft.jogo.patos;
 
-public interface Padrao_Voaveis {
+public interface Padrao_Voaveis { // Interface
 
 	String voar();
 	
