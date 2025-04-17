@@ -1,6 +1,6 @@
 package engsoft.jogo.patos;
 
-public class Pular_Pata implements Padrao_Pular {
+public class Pular_Pata implements Padrao_Pular { // Classe concreta que implementa a interface Padrao_Pular
 
 	private double altura;
 
