@@ -1,10 +1,10 @@
 package engsoft.jogo.patos;
 
-public abstract class Pato {
+public abstract class Pato { // Classe abstrata
     
     // Corrigido: agora são dois atributos distintos e com nomes consistentes
-    protected Padrao_Voaveis comportamento_pato_voo;
-    protected Padrao_Pular comportamento_pato_pulo;
+    protected Padrao_Voaveis comportamento_pato_voo; // Composição, Pato tem um comportamento de voo
+    protected Padrao_Pular comportamento_pato_pulo; // ** Atividade 2: Composição, Pato tem um comportamento de pulo 
 
     // Método abstrato, implementado nas subclasses
     abstract String mostrar();
@@ -15,7 +15,7 @@ public abstract class Pato {
     }
 
     // Define os comportamentos dinamicamente
-    public void setComportamento(Padrao_Voaveis padrao_voo, Padrao_Pular padrao_pulo) {
+    public void setComportamento(Padrao_Voaveis padrao_voo, Padrao_Pular padrao_pulo) { // Delegação, comportamento de voo e de *pulo delegado para a interface Padrao_Voaveis
         this.comportamento_pato_voo = padrao_voo;
         this.comportamento_pato_pulo = padrao_pulo;
     }
