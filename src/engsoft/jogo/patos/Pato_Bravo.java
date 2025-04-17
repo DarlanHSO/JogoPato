@@ -5,7 +5,7 @@ public class Pato_Bravo extends Pato implements  Padrao_Grasnar{ // Classe concr
 
 	public Pato_Bravo()	
 	{
-		setComportamento(new Voaveis_Asa(), new Pular_Pata()); // Código em tempo de implementação, inicializando o comportamento de voo e *pulo (atividade 2)
+		setComportamento(new Voaveis_Asa(), new Pular_Pata()); // Código em tempo de implementação, inicializando o comportamento de voo e *pulo 
 	}
 	
 	public String mostrar() { // Poliformismo: Cada pato diz algo diferente usando o método mostrar 		
