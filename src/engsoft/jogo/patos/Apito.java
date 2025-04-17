@@ -5,7 +5,7 @@ package engsoft.jogo.patos;
  * Implementacao da Interface
  * 
  */
-public class Apito implements Padrao_Grasnar{
+public class Apito implements Padrao_Grasnar{ // Classe concreta que implementa a interface Padrao_Grasnar
 
 	public String grasnar()
 	{		
