@@ -1,6 +1,6 @@
 package engsoft.jogo.patos;
 
-public interface Padrao_Pular {
+public interface Padrao_Pular { // Interface
 
 	String pular();
 
