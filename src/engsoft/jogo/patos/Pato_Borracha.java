@@ -4,11 +4,11 @@ public class Pato_Borracha extends Pato {
 
 	public Pato_Borracha()
 	{
-		setComportamento(new Nao_Voa());		
+		setComportamento(new Nao_Voa(), new Nao_Pula());	
 	}
 	
 	public String mostrar() {
-		return "Olá, eu sou de Boarracha.";
+		return "Ola, eu sou de Boarracha.";
 	}
 	
 }

@@ -10,7 +10,7 @@ public class Voar_Raso implements Padrao_Voaveis {
 
 	@Override
 	public String voar() {
-		return "Voando perto do chão. Velocidade: "
+		return "Voando perto do chao. Velocidade: "
 				+ getVelocidade();
 	}
 

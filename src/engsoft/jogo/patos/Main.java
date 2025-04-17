@@ -9,11 +9,11 @@ public class Main {
 		System.out.println(pt.nadar());
 		System.out.println(pt.comportamento_pato());
 		
-		pt.setComportamento(new Voar_Foguete());
+		pt.setComportamento(new Voar_Foguete(), new Pular_Alto());
 		
 		System.out.println(pt.comportamento_pato());
 		
-		pt.setComportamento(new Voar_Raso());
+		pt.setComportamento(new Voar_Raso(), new Pular_Baixo());
 		
 		System.out.println(pt.comportamento_pato());
 		

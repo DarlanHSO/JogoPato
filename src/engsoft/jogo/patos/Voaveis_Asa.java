@@ -9,7 +9,7 @@ public class Voaveis_Asa implements Padrao_Voaveis {
 	}
 
 	public String voar() {
-		return "Voando como um pássaro que voa. Velocidade: "
+		return "Voando como um passaro que voa. Velocidade: "
 				+ getVelocidade();
 	}
 
